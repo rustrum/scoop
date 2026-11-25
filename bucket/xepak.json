@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "description": "Local/self-hosted DSL based REST, JSON-RPC, MCP and RAG server builder",
+    "homepage": "https://github.com/rustrum/xepak",
+    "license": "MIT",
+    "url": "https://github.com/rustrum/xepak/releases/download/v0.1.0/xepak-x86_64-pc-windows-msvc.zip",
+    "hash": "97307772f4c33f8ded32cf3a767f135fbd948e82c9907c5dd153f33457c86dc7",
+    "bin": "xepak.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/rustrum/xepak/releases/download/v$version/xepak-x86_64-pc-windows-msvc.zip"
+    }
+}
